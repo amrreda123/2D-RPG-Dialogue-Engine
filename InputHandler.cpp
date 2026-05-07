@@ -4,10 +4,7 @@
 #include <windows.h>
 #include <mmsystem.h>
 #include <iostream>
-
-// عشان يقدر يشوف دالة loadScript اللي في الـ main
-extern void loadScript(const std::string &filename);
-
+#include "ScriptLoader.h"
 void InputHandler::keyboard(unsigned char key, int x, int y) {
     if (currentState == MENU) {
         if (key == 's' || key == 'S') {
@@ -27,7 +24,7 @@ void InputHandler::keyboard(unsigned char key, int x, int y) {
                 PlaySound(TEXT(".\\assets\\blip.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
                 fadeAlpha = 1.0f;
                 currentLine = 0;                  
-                loadScript("assets/script.json"); 
+                ScriptLoader::loadScript("assets/script.json"); 
                 std::cout << "Amro Engine: Restarting..." << std::endl;
             }
         }
@@ -37,13 +34,13 @@ void InputHandler::keyboard(unsigned char key, int x, int y) {
                     PlaySound(TEXT(".\\assets\\blip.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
                     displayedChars = 0;
                     lastTypeTime = glutGet(GLUT_ELAPSED_TIME);
-                    loadScript(script[currentLine].file1);
+                    ScriptLoader::loadScript(script[currentLine].file1);
                 }
                 else if (key == '2') {
                     PlaySound(TEXT(".\\assets\\blip.wav"), NULL, SND_FILENAME | SND_ASYNC | SND_NODEFAULT);
                     displayedChars = 0;
                     lastTypeTime = glutGet(GLUT_ELAPSED_TIME);
-                    loadScript(script[currentLine].file2);
+                    ScriptLoader::loadScript(script[currentLine].file2);
                 }
             }
             else if (key == ' ') {

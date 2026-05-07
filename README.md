@@ -47,5 +47,5 @@ This engine serves as a practical application of core **Computer Graphics** prin
 To compile and run the engine on Windows (MinGW), use the following command:
 
 ```bash
-g++ main.cpp InputHandler.cpp DisplayHandler.cpp -o AmroEngine.exe -lfreeglut -lglu32 -lopengl32 -lwinmm
+g++ main.cpp InputHandler.cpp DisplayHandler.cpp ScriptLoader.cpp EngineInitializer.cpp -o AmroEngine.exe -lfreeglut -lglu32 -lopengl32 -lwinmm
 ./AmroEngine.exe
