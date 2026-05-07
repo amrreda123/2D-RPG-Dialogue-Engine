@@ -1,10 +1,10 @@
 #define STB_IMAGE_IMPLEMENTATION
-#include "Globals.h"
-#include "InputHandler.h"
-#include "Character.h"
-#include "DisplayHandler.h"
-#include "ScriptLoader.h"
-#include "EngineInitializer.h"
+#include "include/Globals.h"
+#include "include/InputHandler.h"
+#include "include/Character.h"
+#include "include/DisplayHandler.h"
+#include "include/ScriptLoader.h"
+#include "include/EngineInitializer.h"
 GameState currentState = MENU;
 std::vector<DialogueLine> script;
 std::vector<Character *> cast;

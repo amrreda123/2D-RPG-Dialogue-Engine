@@ -1,8 +1,8 @@
-#include "EngineInitializer.h"
-#include "Globals.h"
-#include "Character.h"
-#include "ScriptLoader.h"
-#include "GraphicsUtils.h"
+#include "include/EngineInitializer.h"
+#include "include/Globals.h"
+#include "include/Character.h"
+#include "include/ScriptLoader.h"
+#include "include/GraphicsUtils.h"
 #include <GL/glut.h>
 #include <GL/glu.h>
 

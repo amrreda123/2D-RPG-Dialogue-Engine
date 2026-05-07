@@ -1,10 +1,10 @@
-#include "InputHandler.h"
-#include "Globals.h"
+#include "include/InputHandler.h"
+#include "include/Globals.h"
+#include "include/ScriptLoader.h"
 #include <GL/glut.h>
 #include <windows.h>
 #include <mmsystem.h>
 #include <iostream>
-#include "ScriptLoader.h"
 void InputHandler::keyboard(unsigned char key, int x, int y) {
     if (currentState == MENU) {
         if (key == 's' || key == 'S') {

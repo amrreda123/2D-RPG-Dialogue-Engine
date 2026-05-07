@@ -1,6 +1,6 @@
-#include "DisplayHandler.h"
-#include "Globals.h"
-#include "Character.h"
+#include "include/DisplayHandler.h"
+#include "include/Globals.h"
+#include "include/Character.h"
 #include <cmath>
 
 // إعلام الملف بوجود دالة الرندر اللي في المين أو في ملف مساعد

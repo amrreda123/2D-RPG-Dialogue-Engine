@@ -1,6 +1,6 @@
-#include "ScriptLoader.h"
-#include "Globals.h"
-#include "json.hpp" // مكتبة الـ JSON
+#include "include/ScriptLoader.h"
+#include "include/Globals.h"
+#include "include/json.hpp" // مكتبة الـ JSON
 #include <fstream>
 #include <iostream>
 
