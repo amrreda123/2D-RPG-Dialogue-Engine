@@ -2,7 +2,7 @@
 #include "includes.h"
 
 // دالة تحميل الصور وتحويلها لـ Textures في OpenGL
-GLuint loadTexture(const char* filename) {
+inline GLuint loadTexture(const char* filename) {
     GLuint textureID;
     glGenTextures(1, &textureID);
     glBindTexture(GL_TEXTURE_2D, textureID);
@@ -38,14 +38,19 @@ GLuint loadTexture(const char* filename) {
     
     return textureID;
 }
-
-// دالة رسم النصوص على الشاشة
-void renderText(float x, float y, const std::string& text) {
-    // تحديد مكان بدايه الكتابة
+// 1. النسخة الأولى: بتتعامل مع الـ String (عشان الحوارات وتأثير الآلة الكاتبة)
+inline void renderText(float x, float y, const std::string& text) {
     glRasterPos2f(x, y);
-    
-    // رسم الحروف حرف حرف باستخدام خط Helvetica حجم 18
     for (char c : text) {
         glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, c);
+    }
+}
+
+// 2. النسخة التانية: بتتعامل مع النصوص المباشرة const char* (عشان القائمة الرئيسية تحل الإيرور)
+inline void renderText(float x, float y, const char* text) {
+    glRasterPos2f(x, y);
+    while (*text) {
+        glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, *text);
+        text++;
     }
 }
