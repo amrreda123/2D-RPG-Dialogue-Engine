@@ -1,0 +1,8 @@
+{
+  "run.compiler": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+  "run.compilerArgs": "-lfreeglut -lopengl32 -lglu32 -lwinmm -lgdi32",
+  "run.compilerDirectory": "C:\\msys64\\ucrt64\\bin\\",
+  "run.inputFile": "${workspaceFolder}\\Input.txt",
+  "run.outputFile": "${workspaceFolder}\\Output.txt",
+  "C_Cpp.errorSquiggles": "disabled"
+}

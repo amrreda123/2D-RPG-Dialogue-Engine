@@ -1,0 +1,17 @@
+[
+  {
+    "speaker": "Manna",
+    "text": "Shield activated! The dragon's attack was blocked!",
+    "color": [0.8, 0.6, 0.4]
+  },
+  {
+    "speaker": "Magdy Khaled",
+    "text": "Now! Use your ultimate move while he is recharging!",
+    "color": [1.0, 1.0, 0.0]
+  },
+  {
+    "speaker": "System",
+    "text": "Critical Hit! The Dragon is defeated. YOU WIN THE GAME!",
+    "color": [1.0, 0.84, 0.0]
+  }
+]

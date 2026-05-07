@@ -1,0 +1,12 @@
+[
+  {
+    "speaker": "Charmander",
+    "text": "Wow! It's extremely dark in here. Stay close to my fire!",
+    "color": [1.0, 0.5, 0.0]
+  },
+  {
+    "speaker": "Pikachu",
+    "text": "Wait... I see glowing red eyes in the shadows!",
+    "color": [1.0, 1.0, 0.0]
+  }
+]

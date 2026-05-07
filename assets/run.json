@@ -1,0 +1,12 @@
+[
+  {
+    "speaker": "Squirtle",
+    "text": "Phew! We ran away just in time. That was scary.",
+    "color": [0.3, 0.8, 1.0]
+  },
+  {
+    "speaker": "Pikachu",
+    "text": "Agreed. Let's find another way around this forest.",
+    "color": [1.0, 1.0, 0.0]
+  }
+]

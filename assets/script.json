@@ -1,0 +1,41 @@
+[
+  {
+    "speaker": "Magdy Khaled",
+    "text": "Guys, the new update is out! Who is ready for a match?",
+    "color": [1.0, 1.0, 0.0]
+  },
+  {
+    "speaker": "Donia Ahamed",
+    "text": "I'm definitely in! Let's rank up today.",
+    "color": [1.0, 0.5, 0.0]
+  },
+  {
+    "speaker": "Amr Reda",
+    "text": "Wait a minute... don't we have a Logic Design exam tomorrow?!",
+    "color": [0.3, 0.8, 1.0]
+  },
+  {
+    "speaker": "Israa Ahmed",
+    "text": "Oh no! I completely forgot! I haven't even opened the slides.",
+    "color": [0.2, 0.8, 0.2]
+  },
+  {
+    "speaker": "Manna",
+    "text": "Well, I finished studying yesterday. I will play with Magdy.",
+    "color": [0.8, 0.6, 0.4]
+  },
+  {
+    "speaker": "Amr Reda",
+    "text": "Alright, Israa and Donia, let's go study. Good luck playing, you two!",
+    "color": [0.3, 0.8, 1.0]
+  },
+  {
+    "speaker": "System",
+    "text": "The study group left. Magdy Khaled and Manna start the game...",
+    "is_choice": true,
+    "opt1": "Press 1: Start Mini-Game",
+    "file1": "assets/game.json",
+    "opt2": "Press 2: Exit Engine",
+    "file2": "assets/exit.json"
+  }
+]

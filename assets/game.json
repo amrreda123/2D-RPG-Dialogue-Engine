@@ -1,0 +1,21 @@
+[
+  {
+    "speaker": "System",
+    "text": "=== LEVEL 1: THE DRAGON BOSS APPEARS ===",
+    "color": [1.0, 0.0, 0.0]
+  },
+  {
+    "speaker": "Magdy Khaled",
+    "text": "Watch out Manna! The boss is charging a massive fire attack!",
+    "color": [1.0, 1.0, 0.0]
+  },
+  {
+    "speaker": "System",
+    "text": "Quick! What should Manna do?",
+    "is_choice": true,
+    "opt1": "Press 1: Use Magic Shield",
+    "file1": "assets/win.json",
+    "opt2": "Press 2: Attack head-on!",
+    "file2": "assets/lose.json"
+  }
+]

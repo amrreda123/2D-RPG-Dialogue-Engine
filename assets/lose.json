@@ -1,0 +1,22 @@
+[
+  {
+    "speaker": "Manna",
+    "text": "I'm going all in! Haaaa!",
+    "color": [0.8, 0.6, 0.4]
+  },
+  {
+    "speaker": "System",
+    "text": "The attack failed. Manna was eliminated by the dragon's fire...",
+    "color": [1.0, 0.0, 0.0]
+  },
+  {
+    "speaker": "Magdy Khaled",
+    "text": "Nooo! We lost the rank and the match!",
+    "color": [1.0, 1.0, 0.0]
+  },
+  {
+    "speaker": "System",
+    "text": "GAME OVER. Better luck next time.",
+    "color": [0.5, 0.5, 0.5]
+  }
+]
